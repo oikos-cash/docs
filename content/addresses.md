@@ -817,3 +817,398 @@ Here is the list of all contracts within the current Oikos system.
                 <td><a target="_blank" href="https://shasta.tronscan.io/#/address/TAXyEiswHvcn9MQtmsc45b3KPftFRDmSAi">TAXyEiswHvcn9MQtmsc45b3KPftFRDmSAi</a>
                 </td>
               </tr></table>
+
+## NILE Contracts
+<table><tr><th>Name</th><th>Source</th><th>ABI</th><th>Address</th></tr>
+              <tr>
+                <td>ArbRewarder</td>
+                <td><a target="_blank" href="https://github.com/oikos-cash/oikos/blob/master/contracts/ArbRewarder.sol">ArbRewarder.sol</a></td>
+                <td><a target="_blank" href="https://raw.githubusercontent.com/oikos-cash/oikos-js/master/lib/abis/nile/ArbRewarder.json">ArbRewarder.json</a></td>
+                <td><a target="_blank" href="https://nile.tronscan.io/#/address/TXsYdnD4kEzbVdWxm5hkqr8cx3CC7D5D7o">TXsYdnD4kEzbVdWxm5hkqr8cx3CC7D5D7o</a>
+                </td>
+              </tr>
+              <tr>
+                <td>DappMaintenance</td>
+                <td><a target="_blank" href="https://github.com/oikos-cash/oikos/blob/master/contracts/DappMaintenance.sol">DappMaintenance.sol</a></td>
+                <td><a target="_blank" href="https://raw.githubusercontent.com/oikos-cash/oikos-js/master/lib/abis/nile/DappMaintenance.json">DappMaintenance.json</a></td>
+                <td><a target="_blank" href="https://nile.tronscan.io/#/address/TYWaeKc6oRe3Arh8mLWNYWNanveu7CMqMD">TYWaeKc6oRe3Arh8mLWNYWNanveu7CMqMD</a>
+                </td>
+              </tr>
+              <tr>
+                <td>DelegateApprovals</td>
+                <td><a target="_blank" href="https://github.com/oikos-cash/oikos/blob/master/contracts/DelegateApprovals.sol">DelegateApprovals.sol</a></td>
+                <td><a target="_blank" href="https://raw.githubusercontent.com/oikos-cash/oikos-js/master/lib/abis/nile/DelegateApprovals.json">DelegateApprovals.json</a></td>
+                <td><a target="_blank" href="https://nile.tronscan.io/#/address/TA4fhSkUL2cWEvtwYjW164e8PBoXKZbjF4">TA4fhSkUL2cWEvtwYjW164e8PBoXKZbjF4</a>
+                </td>
+              </tr>
+              <tr>
+                <td>Depot</td>
+                <td><a target="_blank" href="https://github.com/oikos-cash/oikos/blob/master/contracts/Depot.sol">Depot.sol</a></td>
+                <td><a target="_blank" href="https://raw.githubusercontent.com/oikos-cash/oikos-js/master/lib/abis/nile/Depot.json">Depot.json</a></td>
+                <td><a target="_blank" href="https://nile.tronscan.io/#/address/TQ59SpU3ncwj4b4w5T9UGvUMGwTCduLKUx">TQ59SpU3ncwj4b4w5T9UGvUMGwTCduLKUx</a>
+                </td>
+              </tr>
+              <tr>
+                <td>EscrowChecker</td>
+                <td><a target="_blank" href="https://github.com/oikos-cash/oikos/blob/master/contracts/EscrowChecker.sol">EscrowChecker.sol</a></td>
+                <td><a target="_blank" href="https://raw.githubusercontent.com/oikos-cash/oikos-js/master/lib/abis/nile/EscrowChecker.json">EscrowChecker.json</a></td>
+                <td><a target="_blank" href="https://nile.tronscan.io/#/address/TXG5jofgPCCRjwq2TJFDpfcDwzMchGVU93">TXG5jofgPCCRjwq2TJFDpfcDwzMchGVU93</a>
+                </td>
+              </tr>
+              <tr>
+                <td>ExchangeRates</td>
+                <td><a target="_blank" href="https://github.com/oikos-cash/oikos/blob/master/contracts/ExchangeRates.sol">ExchangeRates.sol</a></td>
+                <td><a target="_blank" href="https://raw.githubusercontent.com/oikos-cash/oikos-js/master/lib/abis/nile/ExchangeRates.json">ExchangeRates.json</a></td>
+                <td><a target="_blank" href="https://nile.tronscan.io/#/address/TUrfHJa227XHzddhtsEpWWwnTBDUX53PfY">TUrfHJa227XHzddhtsEpWWwnTBDUX53PfY</a>
+                </td>
+              </tr>
+              <tr>
+                <td>FeePool</td>
+                <td><a target="_blank" href="https://github.com/oikos-cash/oikos/blob/master/contracts/FeePool.sol">FeePool.sol</a></td>
+                <td><a target="_blank" href="https://raw.githubusercontent.com/oikos-cash/oikos-js/master/lib/abis/nile/FeePool.json">FeePool.json</a></td>
+                <td><a target="_blank" href="https://nile.tronscan.io/#/address/THkF6AwaPp7tVNgy2sUDjtyKQUhQCrb5b3">THkF6AwaPp7tVNgy2sUDjtyKQUhQCrb5b3</a>
+                </td>
+              </tr>
+              <tr>
+                <td>FeePoolEternalStorage</td>
+                <td><a target="_blank" href="https://github.com/oikos-cash/oikos/blob/master/contracts/FeePoolEternalStorage.sol">FeePoolEternalStorage.sol</a></td>
+                <td><a target="_blank" href="https://raw.githubusercontent.com/oikos-cash/oikos-js/master/lib/abis/nile/FeePoolEternalStorage.json">FeePoolEternalStorage.json</a></td>
+                <td><a target="_blank" href="https://nile.tronscan.io/#/address/TQCU82487DD6JTmTdCCkzbWVpKisoPsCQh">TQCU82487DD6JTmTdCCkzbWVpKisoPsCQh</a>
+                </td>
+              </tr>
+              <tr>
+                <td>FeePoolState</td>
+                <td><a target="_blank" href="https://github.com/oikos-cash/oikos/blob/master/contracts/FeePoolState.sol">FeePoolState.sol</a></td>
+                <td><a target="_blank" href="https://raw.githubusercontent.com/oikos-cash/oikos-js/master/lib/abis/nile/FeePoolState.json">FeePoolState.json</a></td>
+                <td><a target="_blank" href="https://nile.tronscan.io/#/address/TGGYMPovpEvAim3kqyEjSoMY11E3zGUxE8">TGGYMPovpEvAim3kqyEjSoMY11E3zGUxE8</a>
+                </td>
+              </tr>
+              <tr>
+                <td>ProxyERC20</td>
+                <td><a target="_blank" href="https://github.com/oikos-cash/oikos/blob/master/contracts/ProxyERC20.sol">ProxyERC20.sol</a></td>
+                <td><a target="_blank" href="https://raw.githubusercontent.com/oikos-cash/oikos-js/master/lib/abis/nile/ProxyERC20.json">ProxyERC20.json</a></td>
+                <td><a target="_blank" href="https://nile.tronscan.io/#/address/TBkccMfMQv69K6F42W9gPTWGvU48Nvg46D">TBkccMfMQv69K6F42W9gPTWGvU48Nvg46D</a>
+                </td>
+              </tr>
+              <tr>
+                <td>ProxyFeePool</td>
+                <td><a target="_blank" href="https://github.com/oikos-cash/oikos/blob/master/contracts/Proxy.sol">Proxy.sol</a></td>
+                <td><a target="_blank" href="https://raw.githubusercontent.com/oikos-cash/oikos-js/master/lib/abis/nile/Proxy.json">Proxy.json</a></td>
+                <td><a target="_blank" href="https://nile.tronscan.io/#/address/TJhxkBUApG9Hh3JxH1HvArR8mQYxscC9EQ">TJhxkBUApG9Hh3JxH1HvArR8mQYxscC9EQ</a>
+                </td>
+              </tr>
+              <tr>
+                <td>ProxyODR</td>
+                <td><a target="_blank" href="https://github.com/oikos-cash/oikos/blob/master/contracts/ProxyERC20.sol">ProxyERC20.sol</a></td>
+                <td><a target="_blank" href="https://raw.githubusercontent.com/oikos-cash/oikos-js/master/lib/abis/nile/ProxyERC20.json">ProxyERC20.json</a></td>
+                <td><a target="_blank" href="https://nile.tronscan.io/#/address/TJKhBjcxNBB6ojDRvHbPx8Rg84yzqyK4ew">TJKhBjcxNBB6ojDRvHbPx8Rg84yzqyK4ew</a>
+                </td>
+              </tr>
+              <tr>
+                <td>ProxySynthetix</td>
+                <td><a target="_blank" href="https://github.com/oikos-cash/oikos/blob/master/contracts/Proxy.sol">Proxy.sol</a></td>
+                <td><a target="_blank" href="https://raw.githubusercontent.com/oikos-cash/oikos-js/master/lib/abis/nile/Proxy.json">Proxy.json</a></td>
+                <td><a target="_blank" href="https://nile.tronscan.io/#/address/TLgMNQWtWgj89pxeT89bVaP2dUS74bmwjD">TLgMNQWtWgj89pxeT89bVaP2dUS74bmwjD</a>
+                </td>
+              </tr>
+              <tr>
+                <td>ProxyiBTC</td>
+                <td><a target="_blank" href="https://github.com/oikos-cash/oikos/blob/master/contracts/ProxyERC20.sol">ProxyERC20.sol</a></td>
+                <td><a target="_blank" href="https://raw.githubusercontent.com/oikos-cash/oikos-js/master/lib/abis/nile/ProxyERC20.json">ProxyERC20.json</a></td>
+                <td><a target="_blank" href="https://nile.tronscan.io/#/address/TGLyaH6BxnoNG3updDugi8L7Srcz8JWA53">TGLyaH6BxnoNG3updDugi8L7Srcz8JWA53</a>
+                </td>
+              </tr>
+              <tr>
+                <td>ProxyiETH</td>
+                <td><a target="_blank" href="https://github.com/oikos-cash/oikos/blob/master/contracts/ProxyERC20.sol">ProxyERC20.sol</a></td>
+                <td><a target="_blank" href="https://raw.githubusercontent.com/oikos-cash/oikos-js/master/lib/abis/nile/ProxyERC20.json">ProxyERC20.json</a></td>
+                <td><a target="_blank" href="https://nile.tronscan.io/#/address/TNDJTEB6Qc6Foh9Peu26rCoWX3XZePQfBF">TNDJTEB6Qc6Foh9Peu26rCoWX3XZePQfBF</a>
+                </td>
+              </tr>
+              <tr>
+                <td>ProxyiTRX</td>
+                <td><a target="_blank" href="https://github.com/oikos-cash/oikos/blob/master/contracts/ProxyERC20.sol">ProxyERC20.sol</a></td>
+                <td><a target="_blank" href="https://raw.githubusercontent.com/oikos-cash/oikos-js/master/lib/abis/nile/ProxyERC20.json">ProxyERC20.json</a></td>
+                <td><a target="_blank" href="https://nile.tronscan.io/#/address/TRiAK6jYyV9AdAuGr5q4QBDxMJabgzQpJe">TRiAK6jYyV9AdAuGr5q4QBDxMJabgzQpJe</a>
+                </td>
+              </tr>
+              <tr>
+                <td>ProxysAUD</td>
+                <td><a target="_blank" href="https://github.com/oikos-cash/oikos/blob/master/contracts/ProxyERC20.sol">ProxyERC20.sol</a></td>
+                <td><a target="_blank" href="https://raw.githubusercontent.com/oikos-cash/oikos-js/master/lib/abis/nile/ProxyERC20.json">ProxyERC20.json</a></td>
+                <td><a target="_blank" href="https://nile.tronscan.io/#/address/TMgt8fhA2LqSkqzkL6UStv6KiNqJGtDDmm">TMgt8fhA2LqSkqzkL6UStv6KiNqJGtDDmm</a>
+                </td>
+              </tr>
+              <tr>
+                <td>ProxysBTC</td>
+                <td><a target="_blank" href="https://github.com/oikos-cash/oikos/blob/master/contracts/ProxyERC20.sol">ProxyERC20.sol</a></td>
+                <td><a target="_blank" href="https://raw.githubusercontent.com/oikos-cash/oikos-js/master/lib/abis/nile/ProxyERC20.json">ProxyERC20.json</a></td>
+                <td><a target="_blank" href="https://nile.tronscan.io/#/address/TUVaqRtnRjzB9FtioFfdTohtxSQGKgmZYx">TUVaqRtnRjzB9FtioFfdTohtxSQGKgmZYx</a>
+                </td>
+              </tr>
+              <tr>
+                <td>ProxysCHF</td>
+                <td><a target="_blank" href="https://github.com/oikos-cash/oikos/blob/master/contracts/ProxyERC20.sol">ProxyERC20.sol</a></td>
+                <td><a target="_blank" href="https://raw.githubusercontent.com/oikos-cash/oikos-js/master/lib/abis/nile/ProxyERC20.json">ProxyERC20.json</a></td>
+                <td><a target="_blank" href="https://nile.tronscan.io/#/address/TWM678gpHFsLjTs4GY5JSYifDasi8xh7s3">TWM678gpHFsLjTs4GY5JSYifDasi8xh7s3</a>
+                </td>
+              </tr>
+              <tr>
+                <td>ProxysETH</td>
+                <td><a target="_blank" href="https://github.com/oikos-cash/oikos/blob/master/contracts/ProxyERC20.sol">ProxyERC20.sol</a></td>
+                <td><a target="_blank" href="https://raw.githubusercontent.com/oikos-cash/oikos-js/master/lib/abis/nile/ProxyERC20.json">ProxyERC20.json</a></td>
+                <td><a target="_blank" href="https://nile.tronscan.io/#/address/TEEvjycASEbyAPAQvNXoSCt2692UZqDYDc">TEEvjycASEbyAPAQvNXoSCt2692UZqDYDc</a>
+                </td>
+              </tr>
+              <tr>
+                <td>ProxysEUR</td>
+                <td><a target="_blank" href="https://github.com/oikos-cash/oikos/blob/master/contracts/ProxyERC20.sol">ProxyERC20.sol</a></td>
+                <td><a target="_blank" href="https://raw.githubusercontent.com/oikos-cash/oikos-js/master/lib/abis/nile/ProxyERC20.json">ProxyERC20.json</a></td>
+                <td><a target="_blank" href="https://nile.tronscan.io/#/address/TRuxaD4WTst9zNa245gJRo1GF3pyKkUuac">TRuxaD4WTst9zNa245gJRo1GF3pyKkUuac</a>
+                </td>
+              </tr>
+              <tr>
+                <td>ProxysGBP</td>
+                <td><a target="_blank" href="https://github.com/oikos-cash/oikos/blob/master/contracts/ProxyERC20.sol">ProxyERC20.sol</a></td>
+                <td><a target="_blank" href="https://raw.githubusercontent.com/oikos-cash/oikos-js/master/lib/abis/nile/ProxyERC20.json">ProxyERC20.json</a></td>
+                <td><a target="_blank" href="https://nile.tronscan.io/#/address/TZ9uT7vx2sdFWnCc4PwVCfzMm4A4cowZMG">TZ9uT7vx2sdFWnCc4PwVCfzMm4A4cowZMG</a>
+                </td>
+              </tr>
+              <tr>
+                <td>ProxysTRX</td>
+                <td><a target="_blank" href="https://github.com/oikos-cash/oikos/blob/master/contracts/ProxyERC20.sol">ProxyERC20.sol</a></td>
+                <td><a target="_blank" href="https://raw.githubusercontent.com/oikos-cash/oikos-js/master/lib/abis/nile/ProxyERC20.json">ProxyERC20.json</a></td>
+                <td><a target="_blank" href="https://nile.tronscan.io/#/address/TTF9xpd3jPaV3RoWSpCsjA6zRB8dvSuKid">TTF9xpd3jPaV3RoWSpCsjA6zRB8dvSuKid</a>
+                </td>
+              </tr>
+              <tr>
+                <td>ProxysUSD</td>
+                <td><a target="_blank" href="https://github.com/oikos-cash/oikos/blob/master/contracts/ProxyERC20.sol">ProxyERC20.sol</a></td>
+                <td><a target="_blank" href="https://raw.githubusercontent.com/oikos-cash/oikos-js/master/lib/abis/nile/ProxyERC20.json">ProxyERC20.json</a></td>
+                <td><a target="_blank" href="https://nile.tronscan.io/#/address/TKh4wwSjL3FE4cWnSJRoP2uMQPvBRf2YAt">TKh4wwSjL3FE4cWnSJRoP2uMQPvBRf2YAt</a>
+                </td>
+              </tr>
+              <tr>
+                <td>RewardEscrow</td>
+                <td><a target="_blank" href="https://github.com/oikos-cash/oikos/blob/master/contracts/RewardEscrow.sol">RewardEscrow.sol</a></td>
+                <td><a target="_blank" href="https://raw.githubusercontent.com/oikos-cash/oikos-js/master/lib/abis/nile/RewardEscrow.json">RewardEscrow.json</a></td>
+                <td><a target="_blank" href="https://nile.tronscan.io/#/address/TAy72knvansTvXb7B5a6yEhGM64NeNQWUP">TAy72knvansTvXb7B5a6yEhGM64NeNQWUP</a>
+                </td>
+              </tr>
+              <tr>
+                <td>RewardsDistribution</td>
+                <td><a target="_blank" href="https://github.com/oikos-cash/oikos/blob/master/contracts/RewardsDistribution.sol">RewardsDistribution.sol</a></td>
+                <td><a target="_blank" href="https://raw.githubusercontent.com/oikos-cash/oikos-js/master/lib/abis/nile/RewardsDistribution.json">RewardsDistribution.json</a></td>
+                <td><a target="_blank" href="https://nile.tronscan.io/#/address/TQnJ1vLqervdxHFFPviaDcCaFiLrLv2pne">TQnJ1vLqervdxHFFPviaDcCaFiLrLv2pne</a>
+                </td>
+              </tr>
+              <tr>
+                <td>SafeDecimalMath</td>
+                <td><a target="_blank" href="https://github.com/oikos-cash/oikos/blob/master/contracts/SafeDecimalMath.sol">SafeDecimalMath.sol</a></td>
+                <td><a target="_blank" href="https://raw.githubusercontent.com/oikos-cash/oikos-js/master/lib/abis/nile/SafeDecimalMath.json">SafeDecimalMath.json</a></td>
+                <td><a target="_blank" href="https://nile.tronscan.io/#/address/TZChvXRJuyDxH1eUruWuyEVSU8mrUQ1wnE">TZChvXRJuyDxH1eUruWuyEVSU8mrUQ1wnE</a>
+                </td>
+              </tr>
+              <tr>
+                <td>SupplySchedule</td>
+                <td><a target="_blank" href="https://github.com/oikos-cash/oikos/blob/master/contracts/SupplySchedule.sol">SupplySchedule.sol</a></td>
+                <td><a target="_blank" href="https://raw.githubusercontent.com/oikos-cash/oikos-js/master/lib/abis/nile/SupplySchedule.json">SupplySchedule.json</a></td>
+                <td><a target="_blank" href="https://nile.tronscan.io/#/address/TC7hQGYGaCqDSA42pdQ9ZX5eEygSYAcdu2">TC7hQGYGaCqDSA42pdQ9ZX5eEygSYAcdu2</a>
+                </td>
+              </tr>
+              <tr>
+                <td>SynthODR</td>
+                <td><a target="_blank" href="https://github.com/oikos-cash/oikos/blob/master/contracts/Synth.sol">Synth.sol</a></td>
+                <td><a target="_blank" href="https://raw.githubusercontent.com/oikos-cash/oikos-js/master/lib/abis/nile/Synth.json">Synth.json</a></td>
+                <td><a target="_blank" href="https://nile.tronscan.io/#/address/TQLmQQm9BPVtWj8vbdkw221mF6LSC3svh9">TQLmQQm9BPVtWj8vbdkw221mF6LSC3svh9</a>
+                </td>
+              </tr>
+              <tr>
+                <td>Synthetix</td>
+                <td><a target="_blank" href="https://github.com/oikos-cash/oikos/blob/master/contracts/Synthetix.sol">Synthetix.sol</a></td>
+                <td><a target="_blank" href="https://raw.githubusercontent.com/oikos-cash/oikos-js/master/lib/abis/nile/Synthetix.json">Synthetix.json</a></td>
+                <td><a target="_blank" href="https://nile.tronscan.io/#/address/TF7txMEQEiMp8z79xL6XihLnv6b4YQKjXV">TF7txMEQEiMp8z79xL6XihLnv6b4YQKjXV</a>
+                </td>
+              </tr>
+              <tr>
+                <td>SynthetixEscrow</td>
+                <td><a target="_blank" href="https://github.com/oikos-cash/oikos/blob/master/contracts/SynthetixEscrow.sol">SynthetixEscrow.sol</a></td>
+                <td><a target="_blank" href="https://raw.githubusercontent.com/oikos-cash/oikos-js/master/lib/abis/nile/SynthetixEscrow.json">SynthetixEscrow.json</a></td>
+                <td><a target="_blank" href="https://nile.tronscan.io/#/address/TCJLGdgSKVEPj4RHcwcMRNU3p3gj1F5FXK">TCJLGdgSKVEPj4RHcwcMRNU3p3gj1F5FXK</a>
+                </td>
+              </tr>
+              <tr>
+                <td>SynthetixState</td>
+                <td><a target="_blank" href="https://github.com/oikos-cash/oikos/blob/master/contracts/SynthetixState.sol">SynthetixState.sol</a></td>
+                <td><a target="_blank" href="https://raw.githubusercontent.com/oikos-cash/oikos-js/master/lib/abis/nile/SynthetixState.json">SynthetixState.json</a></td>
+                <td><a target="_blank" href="https://nile.tronscan.io/#/address/TUiVRKaqsKLmXZBV4t3F3UJ2mUyJ9Y6M3e">TUiVRKaqsKLmXZBV4t3F3UJ2mUyJ9Y6M3e</a>
+                </td>
+              </tr>
+              <tr>
+                <td>SynthiBTC</td>
+                <td><a target="_blank" href="https://github.com/oikos-cash/oikos/blob/master/contracts/PurgeableSynth.sol">PurgeableSynth.sol</a></td>
+                <td><a target="_blank" href="https://raw.githubusercontent.com/oikos-cash/oikos-js/master/lib/abis/nile/PurgeableSynth.json">PurgeableSynth.json</a></td>
+                <td><a target="_blank" href="https://nile.tronscan.io/#/address/TMik6QJkYqKr8KDovV8kZ1bZUBRHF8uCRt">TMik6QJkYqKr8KDovV8kZ1bZUBRHF8uCRt</a>
+                </td>
+              </tr>
+              <tr>
+                <td>SynthiETH</td>
+                <td><a target="_blank" href="https://github.com/oikos-cash/oikos/blob/master/contracts/PurgeableSynth.sol">PurgeableSynth.sol</a></td>
+                <td><a target="_blank" href="https://raw.githubusercontent.com/oikos-cash/oikos-js/master/lib/abis/nile/PurgeableSynth.json">PurgeableSynth.json</a></td>
+                <td><a target="_blank" href="https://nile.tronscan.io/#/address/TUXMrfQHXwMcAnMECa6FCyVR8GJWsXKMrs">TUXMrfQHXwMcAnMECa6FCyVR8GJWsXKMrs</a>
+                </td>
+              </tr>
+              <tr>
+                <td>SynthiTRX</td>
+                <td><a target="_blank" href="https://github.com/oikos-cash/oikos/blob/master/contracts/PurgeableSynth.sol">PurgeableSynth.sol</a></td>
+                <td><a target="_blank" href="https://raw.githubusercontent.com/oikos-cash/oikos-js/master/lib/abis/nile/PurgeableSynth.json">PurgeableSynth.json</a></td>
+                <td><a target="_blank" href="https://nile.tronscan.io/#/address/TB5AF48e4ao8FRrB1x3jhL5Cqqj3B6hrCR">TB5AF48e4ao8FRrB1x3jhL5Cqqj3B6hrCR</a>
+                </td>
+              </tr>
+              <tr>
+                <td>SynthsAUD</td>
+                <td><a target="_blank" href="https://github.com/oikos-cash/oikos/blob/master/contracts/Synth.sol">Synth.sol</a></td>
+                <td><a target="_blank" href="https://raw.githubusercontent.com/oikos-cash/oikos-js/master/lib/abis/nile/Synth.json">Synth.json</a></td>
+                <td><a target="_blank" href="https://nile.tronscan.io/#/address/TRWVgWbmGnvEfcpbvm2huwuojqEtWBd9g8">TRWVgWbmGnvEfcpbvm2huwuojqEtWBd9g8</a>
+                </td>
+              </tr>
+              <tr>
+                <td>SynthsBTC</td>
+                <td><a target="_blank" href="https://github.com/oikos-cash/oikos/blob/master/contracts/Synth.sol">Synth.sol</a></td>
+                <td><a target="_blank" href="https://raw.githubusercontent.com/oikos-cash/oikos-js/master/lib/abis/nile/Synth.json">Synth.json</a></td>
+                <td><a target="_blank" href="https://nile.tronscan.io/#/address/TG4EJj4D5oJNtZj3G6pLdoHR9cHuYHqZn9">TG4EJj4D5oJNtZj3G6pLdoHR9cHuYHqZn9</a>
+                </td>
+              </tr>
+              <tr>
+                <td>SynthsCHF</td>
+                <td><a target="_blank" href="https://github.com/oikos-cash/oikos/blob/master/contracts/Synth.sol">Synth.sol</a></td>
+                <td><a target="_blank" href="https://raw.githubusercontent.com/oikos-cash/oikos-js/master/lib/abis/nile/Synth.json">Synth.json</a></td>
+                <td><a target="_blank" href="https://nile.tronscan.io/#/address/TQ2AUqULj59KL3G7e3fd2RMdj8KyvzMT1N">TQ2AUqULj59KL3G7e3fd2RMdj8KyvzMT1N</a>
+                </td>
+              </tr>
+              <tr>
+                <td>SynthsETH</td>
+                <td><a target="_blank" href="https://github.com/oikos-cash/oikos/blob/master/contracts/Synth.sol">Synth.sol</a></td>
+                <td><a target="_blank" href="https://raw.githubusercontent.com/oikos-cash/oikos-js/master/lib/abis/nile/Synth.json">Synth.json</a></td>
+                <td><a target="_blank" href="https://nile.tronscan.io/#/address/TSeo7h12oRw5GDNKwwinQN9WwZjBFVfvng">TSeo7h12oRw5GDNKwwinQN9WwZjBFVfvng</a>
+                </td>
+              </tr>
+              <tr>
+                <td>SynthsEUR</td>
+                <td><a target="_blank" href="https://github.com/oikos-cash/oikos/blob/master/contracts/Synth.sol">Synth.sol</a></td>
+                <td><a target="_blank" href="https://raw.githubusercontent.com/oikos-cash/oikos-js/master/lib/abis/nile/Synth.json">Synth.json</a></td>
+                <td><a target="_blank" href="https://nile.tronscan.io/#/address/TL1XaPdsrQLsFgvcVVMyJJp1r4oGukH9Wr">TL1XaPdsrQLsFgvcVVMyJJp1r4oGukH9Wr</a>
+                </td>
+              </tr>
+              <tr>
+                <td>SynthsGBP</td>
+                <td><a target="_blank" href="https://github.com/oikos-cash/oikos/blob/master/contracts/Synth.sol">Synth.sol</a></td>
+                <td><a target="_blank" href="https://raw.githubusercontent.com/oikos-cash/oikos-js/master/lib/abis/nile/Synth.json">Synth.json</a></td>
+                <td><a target="_blank" href="https://nile.tronscan.io/#/address/TYGj1HUsRAJKmuMurjZA2TuhsK2WbS5Dio">TYGj1HUsRAJKmuMurjZA2TuhsK2WbS5Dio</a>
+                </td>
+              </tr>
+              <tr>
+                <td>SynthsTRX</td>
+                <td><a target="_blank" href="https://github.com/oikos-cash/oikos/blob/master/contracts/Synth.sol">Synth.sol</a></td>
+                <td><a target="_blank" href="https://raw.githubusercontent.com/oikos-cash/oikos-js/master/lib/abis/nile/Synth.json">Synth.json</a></td>
+                <td><a target="_blank" href="https://nile.tronscan.io/#/address/TPwgUswnUh7qYDsxLZK8d7EjxsHzS563t5">TPwgUswnUh7qYDsxLZK8d7EjxsHzS563t5</a>
+                </td>
+              </tr>
+              <tr>
+                <td>SynthsUSD</td>
+                <td><a target="_blank" href="https://github.com/oikos-cash/oikos/blob/master/contracts/Synth.sol">Synth.sol</a></td>
+                <td><a target="_blank" href="https://raw.githubusercontent.com/oikos-cash/oikos-js/master/lib/abis/nile/Synth.json">Synth.json</a></td>
+                <td><a target="_blank" href="https://nile.tronscan.io/#/address/TBsq2rYoFpzAcaWADC8MgHLdqGes41pTiP">TBsq2rYoFpzAcaWADC8MgHLdqGes41pTiP</a>
+                </td>
+              </tr>
+              <tr>
+                <td>TokenStateODR</td>
+                <td><a target="_blank" href="https://github.com/oikos-cash/oikos/blob/master/contracts/TokenState.sol">TokenState.sol</a></td>
+                <td><a target="_blank" href="https://raw.githubusercontent.com/oikos-cash/oikos-js/master/lib/abis/nile/TokenState.json">TokenState.json</a></td>
+                <td><a target="_blank" href="https://nile.tronscan.io/#/address/TGQEPRFWtdMky6wgmXCDRFLKQhrSwtYLKi">TGQEPRFWtdMky6wgmXCDRFLKQhrSwtYLKi</a>
+                </td>
+              </tr>
+              <tr>
+                <td>TokenStateSynthetix</td>
+                <td><a target="_blank" href="https://github.com/oikos-cash/oikos/blob/master/contracts/TokenState.sol">TokenState.sol</a></td>
+                <td><a target="_blank" href="https://raw.githubusercontent.com/oikos-cash/oikos-js/master/lib/abis/nile/TokenState.json">TokenState.json</a></td>
+                <td><a target="_blank" href="https://nile.tronscan.io/#/address/TFnY1Uav51cGda7p9Vf2LcMyUW4nT9Yi3u">TFnY1Uav51cGda7p9Vf2LcMyUW4nT9Yi3u</a>
+                </td>
+              </tr>
+              <tr>
+                <td>TokenStateiBTC</td>
+                <td><a target="_blank" href="https://github.com/oikos-cash/oikos/blob/master/contracts/TokenState.sol">TokenState.sol</a></td>
+                <td><a target="_blank" href="https://raw.githubusercontent.com/oikos-cash/oikos-js/master/lib/abis/nile/TokenState.json">TokenState.json</a></td>
+                <td><a target="_blank" href="https://nile.tronscan.io/#/address/TSbkzwDmwBQM6wLypGKBhrRrFBsaPnKxDx">TSbkzwDmwBQM6wLypGKBhrRrFBsaPnKxDx</a>
+                </td>
+              </tr>
+              <tr>
+                <td>TokenStateiETH</td>
+                <td><a target="_blank" href="https://github.com/oikos-cash/oikos/blob/master/contracts/TokenState.sol">TokenState.sol</a></td>
+                <td><a target="_blank" href="https://raw.githubusercontent.com/oikos-cash/oikos-js/master/lib/abis/nile/TokenState.json">TokenState.json</a></td>
+                <td><a target="_blank" href="https://nile.tronscan.io/#/address/TJr7mXsb6eVeb8NDtzJiTvRavbxEXmDPC2">TJr7mXsb6eVeb8NDtzJiTvRavbxEXmDPC2</a>
+                </td>
+              </tr>
+              <tr>
+                <td>TokenStateiTRX</td>
+                <td><a target="_blank" href="https://github.com/oikos-cash/oikos/blob/master/contracts/TokenState.sol">TokenState.sol</a></td>
+                <td><a target="_blank" href="https://raw.githubusercontent.com/oikos-cash/oikos-js/master/lib/abis/nile/TokenState.json">TokenState.json</a></td>
+                <td><a target="_blank" href="https://nile.tronscan.io/#/address/TPwnQrnfmUkk5s3hdfV43EvneWFkuB8wFx">TPwnQrnfmUkk5s3hdfV43EvneWFkuB8wFx</a>
+                </td>
+              </tr>
+              <tr>
+                <td>TokenStatesAUD</td>
+                <td><a target="_blank" href="https://github.com/oikos-cash/oikos/blob/master/contracts/TokenState.sol">TokenState.sol</a></td>
+                <td><a target="_blank" href="https://raw.githubusercontent.com/oikos-cash/oikos-js/master/lib/abis/nile/TokenState.json">TokenState.json</a></td>
+                <td><a target="_blank" href="https://nile.tronscan.io/#/address/TM9tYKjSsdrtHN7E7F4BYorxQ25WKKHGgW">TM9tYKjSsdrtHN7E7F4BYorxQ25WKKHGgW</a>
+                </td>
+              </tr>
+              <tr>
+                <td>TokenStatesBTC</td>
+                <td><a target="_blank" href="https://github.com/oikos-cash/oikos/blob/master/contracts/TokenState.sol">TokenState.sol</a></td>
+                <td><a target="_blank" href="https://raw.githubusercontent.com/oikos-cash/oikos-js/master/lib/abis/nile/TokenState.json">TokenState.json</a></td>
+                <td><a target="_blank" href="https://nile.tronscan.io/#/address/TDSnrXLSrvk1xHCWdqk56GD99M3LKC8fcj">TDSnrXLSrvk1xHCWdqk56GD99M3LKC8fcj</a>
+                </td>
+              </tr>
+              <tr>
+                <td>TokenStatesCHF</td>
+                <td><a target="_blank" href="https://github.com/oikos-cash/oikos/blob/master/contracts/TokenState.sol">TokenState.sol</a></td>
+                <td><a target="_blank" href="https://raw.githubusercontent.com/oikos-cash/oikos-js/master/lib/abis/nile/TokenState.json">TokenState.json</a></td>
+                <td><a target="_blank" href="https://nile.tronscan.io/#/address/TN7TkKAVnym9vnynvrFr9QG5bigtJmQMDP">TN7TkKAVnym9vnynvrFr9QG5bigtJmQMDP</a>
+                </td>
+              </tr>
+              <tr>
+                <td>TokenStatesETH</td>
+                <td><a target="_blank" href="https://github.com/oikos-cash/oikos/blob/master/contracts/TokenState.sol">TokenState.sol</a></td>
+                <td><a target="_blank" href="https://raw.githubusercontent.com/oikos-cash/oikos-js/master/lib/abis/nile/TokenState.json">TokenState.json</a></td>
+                <td><a target="_blank" href="https://nile.tronscan.io/#/address/TGUrh3yXQWUSu5wrWsz6SMF9VXT1GCGcFi">TGUrh3yXQWUSu5wrWsz6SMF9VXT1GCGcFi</a>
+                </td>
+              </tr>
+              <tr>
+                <td>TokenStatesEUR</td>
+                <td><a target="_blank" href="https://github.com/oikos-cash/oikos/blob/master/contracts/TokenState.sol">TokenState.sol</a></td>
+                <td><a target="_blank" href="https://raw.githubusercontent.com/oikos-cash/oikos-js/master/lib/abis/nile/TokenState.json">TokenState.json</a></td>
+                <td><a target="_blank" href="https://nile.tronscan.io/#/address/TXzU45EjHuFPvj6Znbi4a8Bdm8XVYAKPbb">TXzU45EjHuFPvj6Znbi4a8Bdm8XVYAKPbb</a>
+                </td>
+              </tr>
+              <tr>
+                <td>TokenStatesGBP</td>
+                <td><a target="_blank" href="https://github.com/oikos-cash/oikos/blob/master/contracts/TokenState.sol">TokenState.sol</a></td>
+                <td><a target="_blank" href="https://raw.githubusercontent.com/oikos-cash/oikos-js/master/lib/abis/nile/TokenState.json">TokenState.json</a></td>
+                <td><a target="_blank" href="https://nile.tronscan.io/#/address/TBwctXffg1wx6VrqXGuLr21cAaKvRkyCqf">TBwctXffg1wx6VrqXGuLr21cAaKvRkyCqf</a>
+                </td>
+              </tr>
+              <tr>
+                <td>TokenStatesTRX</td>
+                <td><a target="_blank" href="https://github.com/oikos-cash/oikos/blob/master/contracts/TokenState.sol">TokenState.sol</a></td>
+                <td><a target="_blank" href="https://raw.githubusercontent.com/oikos-cash/oikos-js/master/lib/abis/nile/TokenState.json">TokenState.json</a></td>
+                <td><a target="_blank" href="https://nile.tronscan.io/#/address/TCpTVPp4XPFby6qXMgQT8PymN92VYqFoL3">TCpTVPp4XPFby6qXMgQT8PymN92VYqFoL3</a>
+                </td>
+              </tr>
+              <tr>
+                <td>TokenStatesUSD</td>
+                <td><a target="_blank" href="https://github.com/oikos-cash/oikos/blob/master/contracts/TokenState.sol">TokenState.sol</a></td>
+                <td><a target="_blank" href="https://raw.githubusercontent.com/oikos-cash/oikos-js/master/lib/abis/nile/TokenState.json">TokenState.json</a></td>
+                <td><a target="_blank" href="https://nile.tronscan.io/#/address/TB34aaYQ6GdefeSMtSuVwjNQkGedxsyFDD">TB34aaYQ6GdefeSMtSuVwjNQkGedxsyFDD</a>
+                </td>
+              </tr></table>

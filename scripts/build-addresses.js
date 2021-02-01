@@ -30,7 +30,7 @@ const generateAddresses = () => {
 		' https://contracts.oikos.cash to get a link that will always redirect to the latest version of the contract on Tronscan.\n\n\tFor example, try https://contracts.oikos.cash/Oikos to get linked to the latest Oikos underlying.' +
 		'\n\n\tFor testnets, insert the testnet name before the contract, as in https://contracts.oikos.cash/kovan/Oikos';*/
 
-	const contractContent = ['mainnet', 'shasta']
+	const contractContent = ['mainnet', 'shasta', 'nile']
 		.map(network => {
 			const targets = snx.getTarget({ network });
 
