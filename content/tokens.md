@@ -27,6 +27,19 @@
 
 >Tracks the price of Bitcoin (BTC) through price feeds supplied by an oracle.
 
+## ChainLink token (sLINK)
+
+**Address:** [TVCwBkeuRPaM4ZyKBywgoQZDYYxPh1HjJ5](https://tronscan.io/#/address/TVCwBkeuRPaM4ZyKBywgoQZDYYxPh1HjJ5)
+
+**Decimals:** 18
+
+**Price Feed**: Oikos (centralized)
+
+- Oracle: [TRYTKaB8x1ru3YcZzyvyKLoK32DrgvnnGa](https://tronscan.io/#/address/TRYTKaB8x1ru3YcZzyvyKLoK32DrgvnnGa)
+- Contract: [ExchangeRates](https://contracts.oikos.cash/ExchangeRates)
+
+>Tracks the price of ChainLink token (LINK) through price feeds supplied by an oracle.
+
 ## Ether (sETH)
 
 **Address:** [TQ3UnKu9aRqHN2tnwkSUj2aXmswc4emygc](https://tronscan.io/#/address/TQ3UnKu9aRqHN2tnwkSUj2aXmswc4emygc)

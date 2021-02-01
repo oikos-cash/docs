@@ -1,8 +1,8 @@
 Here is the list of all contracts within the current Oikos system.
 
-**Version**: [v0.4.2](https://github.com/oikos-cash/oikos/tree/v0.4.2)
+**Version**: [v0.4.15](https://github.com/oikos-cash/oikos/tree/v0.4.15)
 
-**Docs Built**: Jul 4, 2020
+**Docs Built**: Jan 31, 2021
 
 
 
@@ -164,6 +164,13 @@ Here is the list of all contracts within the current Oikos system.
                 </td>
               </tr>
               <tr>
+                <td>ProxysLINK</td>
+                <td><a target="_blank" href="https://github.com/oikos-cash/oikos/blob/master/contracts/ProxyERC20.sol">ProxyERC20.sol</a></td>
+                <td><a target="_blank" href="https://raw.githubusercontent.com/oikos-cash/oikos-js/master/lib/abis/mainnet/ProxyERC20.json">ProxyERC20.json</a></td>
+                <td><a target="_blank" href="https://tronscan.io/#/address/TVCwBkeuRPaM4ZyKBywgoQZDYYxPh1HjJ5">TVCwBkeuRPaM4ZyKBywgoQZDYYxPh1HjJ5</a>
+                </td>
+              </tr>
+              <tr>
                 <td>ProxysTRX</td>
                 <td><a target="_blank" href="https://github.com/oikos-cash/oikos/blob/master/contracts/ProxyERC20.sol">ProxyERC20.sol</a></td>
                 <td><a target="_blank" href="https://raw.githubusercontent.com/oikos-cash/oikos-js/master/lib/abis/mainnet/ProxyERC20.json">ProxyERC20.json</a></td>
@@ -216,7 +223,7 @@ Here is the list of all contracts within the current Oikos system.
                 <td>Synthetix</td>
                 <td><a target="_blank" href="https://github.com/oikos-cash/oikos/blob/master/contracts/Synthetix.sol">Synthetix.sol</a></td>
                 <td><a target="_blank" href="https://raw.githubusercontent.com/oikos-cash/oikos-js/master/lib/abis/mainnet/Synthetix.json">Synthetix.json</a></td>
-                <td><a target="_blank" href="https://tronscan.io/#/address/TRjh5SKFaL7A3y2F6nZHKoLQizpsZ7SbR2">TRjh5SKFaL7A3y2F6nZHKoLQizpsZ7SbR2</a>
+                <td><a target="_blank" href="https://tronscan.io/#/address/TUU1hgzZTeWS8FcS6VRRv1MExeJzj7A4VZ">TUU1hgzZTeWS8FcS6VRRv1MExeJzj7A4VZ</a>
                 </td>
               </tr>
               <tr>
@@ -294,6 +301,13 @@ Here is the list of all contracts within the current Oikos system.
                 <td><a target="_blank" href="https://github.com/oikos-cash/oikos/blob/master/contracts/Synth.sol">Synth.sol</a></td>
                 <td><a target="_blank" href="https://raw.githubusercontent.com/oikos-cash/oikos-js/master/lib/abis/mainnet/Synth.json">Synth.json</a></td>
                 <td><a target="_blank" href="https://tronscan.io/#/address/TCUsVjdGMh5SkhejeY1xnQavGdgqbpFism">TCUsVjdGMh5SkhejeY1xnQavGdgqbpFism</a>
+                </td>
+              </tr>
+              <tr>
+                <td>SynthsLINK</td>
+                <td><a target="_blank" href="https://github.com/oikos-cash/oikos/blob/master/contracts/Synth.sol">Synth.sol</a></td>
+                <td><a target="_blank" href="https://raw.githubusercontent.com/oikos-cash/oikos-js/master/lib/abis/mainnet/Synth.json">Synth.json</a></td>
+                <td><a target="_blank" href="https://tronscan.io/#/address/TMzUoHyoAAQMaV7ZcwmXXXLGNuWLWZVZEx">TMzUoHyoAAQMaV7ZcwmXXXLGNuWLWZVZEx</a>
                 </td>
               </tr>
               <tr>
@@ -385,6 +399,13 @@ Here is the list of all contracts within the current Oikos system.
                 <td><a target="_blank" href="https://github.com/oikos-cash/oikos/blob/master/contracts/TokenState.sol">TokenState.sol</a></td>
                 <td><a target="_blank" href="https://raw.githubusercontent.com/oikos-cash/oikos-js/master/lib/abis/mainnet/TokenState.json">TokenState.json</a></td>
                 <td><a target="_blank" href="https://tronscan.io/#/address/TRZnd8tTZ1MUNZHviii8KNYmVryLPnu3pt">TRZnd8tTZ1MUNZHviii8KNYmVryLPnu3pt</a>
+                </td>
+              </tr>
+              <tr>
+                <td>TokenStatesLINK</td>
+                <td><a target="_blank" href="https://github.com/oikos-cash/oikos/blob/master/contracts/TokenState.sol">TokenState.sol</a></td>
+                <td><a target="_blank" href="https://raw.githubusercontent.com/oikos-cash/oikos-js/master/lib/abis/mainnet/TokenState.json">TokenState.json</a></td>
+                <td><a target="_blank" href="https://tronscan.io/#/address/TAbGtcjA1FKD5VHkz8PfsLXXr3KZbBtRdq">TAbGtcjA1FKD5VHkz8PfsLXXr3KZbBtRdq</a>
                 </td>
               </tr>
               <tr>
