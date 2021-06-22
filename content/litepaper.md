@@ -1,20 +1,20 @@
 # Litepaper
 
-**Version**: 1.4 (May 2020)
+**Version**: 1.5 (June 2021)
 
 **Translations**: [中文 (Mandarin)](./litepaper-zh.pdf)
 
 ## Abstract
 
-Oikos is a decentralised synthetic asset issuance protocol built on Tron. These synthetic assets are collateralized by the Oikos Network Token (OKS) which when locked in the contract enables the issuance of synthetic assets (Synths). This pooled collateral model enables users to perform conversions between Synths directly with the smart contract, avoiding the need for counterparties. This mechanism solves the liquidity and slippage issues experienced by DEX’s. Oikos currently supports synthetic fiat currencies, cryptocurrencies (long and short) and commodities. OKS holders are incentivised to stake their tokens as they are paid a pro-rata portion of the fees generated through activity on Oikos.Exchange, based on their contribution to the network. It is the right to participate in the network and capture fees generated from Synth exchanges, from which the value of the OKS token is derived. Trading on Oikos.Exchange does not require the trader to hold OKS.
+Oikos is a decentralised synthetic asset issuance protocol built on Binance Smart Chain. These synthetic assets are collateralized by the Oikos Network Token (OKS) which when locked in the contract enables the issuance of synthetic assets (Synths). This pooled collateral model enables users to perform conversions between Synths directly with the smart contract, avoiding the need for counterparties. This mechanism solves the liquidity and slippage issues experienced by DEX’s. Oikos currently supports synthetic fiat currencies, cryptocurrencies (long and short) and commodities. OKS holders are incentivised to stake their tokens as they are paid a pro-rata portion of the fees generated through activity on Oikos.Exchange, based on their contribution to the network. It is the right to participate in the network and capture fees generated from Synth exchanges, from which the value of the OKS token is derived. Trading on Oikos.Exchange does not require the trader to hold OKS.
 
 ## OKS as collateral
 
 **How OKS backs Synths**
 
-All Synths are backed by OKS tokens. Synths are minted when OKS holders stake their OKS as collateral using Minter, a decentralised application for interacting with the Oikos contracts. Synths are currently backed by a 800% collateralisation ratio, although this may be raised or lowered in the future through community governance mechanisms. OKS stakers incur debt when they mint Synths, and to exit the system (i.e. unlock their OKS) they must pay back this debt by burning Synths.
+All Synths are backed by OKS tokens. Synths are minted when OKS holders stake their OKS as collateral using Minter, a decentralised application for interacting with the Oikos contracts. Synths are currently backed by a 500% collateralisation ratio, although this may be raised or lowered in the future through community governance mechanisms. OKS stakers incur debt when they mint Synths, and to exit the system (i.e. unlock their OKS) they must pay back this debt by burning Synths.
 
-Oikos is also currently trialling TRX as an alternative form of collateral. This means traders can borrow Synths against their TRX and begin trading immediately, rather than needing to sell their TRX. Staking TRX requires a collateralisation ratio of 150% and creates a debt denominated in TRX, so TRX stakers mint sTRX rather than sUSD and do not participate in the ‘pooled debt’ aspect of the system. In this model, TRX stakers do not receive fees or rewards as they take no risk for the debt pool.
+Oikos is also currently trialling BNB as an alternative form of collateral. This means traders can borrow Synths against their BNB and begin trading immediately, rather than needing to sell their BNB. Staking BNB requires a collateralisation ratio of 150% and creates a debt denominated in BNB, so BNB stakers mint oBNB rather than oUSD and do not participate in the ‘pooled debt’ aspect of the system. In this model, BNB stakers do not receive fees or rewards as they take no risk for the debt pool.
 
 **Why OKS holders stake**
 
@@ -22,11 +22,11 @@ OKS holders are incentivised to stake their tokens and mint Synths in several wa
 
 **Minting, burning, and the C-Ratio**
 
-The mechanisms above ensure OKS stakers are incentivised to maintain their Collateralisation Ratio (C-Ratio) at the optimal rate (currently 800%). This ensures Synths are backed by sufficient collateral to absorb large price shocks. If the value of OKS or Synths fluctuate, each staker’s C Ratio will fluctuate. If it falls below 800% (although there is a small buffer allowing for minor fluctuations), they will be unable to claim fees until they restore their ratio. They adjust their ratio by either minting Synths if their ratio is above 800%, or burning Synths if their ratio is below 800%.
+The mechanisms above ensure OKS stakers are incentivised to maintain their Collateralisation Ratio (C-Ratio) at the optimal rate (currently 500%). This ensures Synths are backed by sufficient collateral to absorb large price shocks. If the value of OKS or Synths fluctuate, each staker’s C Ratio will fluctuate. If it falls below 500% (although there is a small buffer allowing for minor fluctuations), they will be unable to claim fees until they restore their ratio. They adjust their ratio by either minting Synths if their ratio is above 500%, or burning Synths if their ratio is below 500%.
 
 **Stakers, debt, and pooled counterparties**
 
-OKS stakers incur a ‘debt’ when they mint Synths. This debt can increase or decrease independent of their original minted value, based on the exchange rates and supply of Synths within the network. For example, if 100% of the Synths in the system were synthetic Bitcoin (sBTC), which halved in price, the debt in the system would halve, and each staker’s debt would also halve. This means in another scenario, where only half the Synths across the system were sBTC, and BTC doubled in price, the system’s total debt—and each staker’s debt—would increase by one quarter.
+OKS stakers incur a ‘debt’ when they mint Synths. This debt can increase or decrease independent of their original minted value, based on the exchange rates and supply of Synths within the network. For example, if 100% of the Synths in the system were synthetic Bitcoin (sBTC), which halved in price, the debt in the system would halve, and each staker’s debt would also halve. This means in another scenario, where only half the Synths across the system were oBTC, and BTC doubled in price, the system’s total debt—and each staker’s debt—would increase by one quarter.
 In this way, OKS stakers act as a pooled counterparty to all Synth exchanges; stakers take on the risk of the overall debt in the system. They have the option of hedging this risk by taking positions external to the system. By incurring this risk and enabling trading on Oikos.Exchange stakers earn a right to fees generated by the system.
 
 ![Image of debt example](https://www.oikos.cash/uploads/delphi_digital_debt_example.png)
@@ -38,15 +38,15 @@ The Synth peg is critical to a well functioning system, because traders require 
 
 There are three methods to maintain the Synth peg:
 
-- **Arbitrage**: OKS stakers have created debt by minting Synths, so if the peg drops they can now profit by buying sUSD back below par and burning it to reduce their debt, as the Oikos system always values 1 sUSD at \$1 USD.
-- **sTRX liquidity pool on Oikos Swap**: each week, a portion of the OKS added to the total supply through the inflationary monetary policy is distributed as reward to people providing sTRX/TRX liquidity on Oikos Swap. This has incentivised liquidity providers to collectively create the largest liquidity pool on Oikos Swap (at time of writing), allowing traders to purchase Synths to start trading or sell Synths to take profits.
-- **OKS auction**: Oikos is currently trialling a new mechanism with the dFusion protocol (from Gnosis) in which discounted OKS is sold at auction for TRX, which is then used to purchase Synths below the peg.
+- **Arbitrage**: OKS stakers have created debt by minting Synths, so if the peg drops they can now profit by buying oUSD back below par and burning it to reduce their debt, as the Oikos system always values 1 oUSD at \$1 USD.
+- **oUSD liquidity pool on Pancake Swap and Derive Finance**: each week, a portion of the OKS added to the total supply through the inflationary monetary policy is distributed as reward to people providing liquidity on Pancake Swap and Derive Finance. This allows traders to purchase Synths to start trading or sell Synths to take profits.
+- **OKS auction**: Oikos is currently trialling a new mechanism in which discounted OKS will be sold at auction for BNB, which will then be used to purchase Synths below the peg.
 
 ## Oikos.Exchange
 
 **Why trade synthetic assets?**
 
-Synthetic assets provide exposure to an asset without holding the underlying resource. This has a range of advantages, including reducing the friction when switching between different assets (e.g. from Apple shares to synthetic gold), expanding the accessibility of certain assets, and censorship resistance.
+Synthetic assets provide exposure to an asset without holding the underlying resource. This has a range of advantages, including reducing the friction when switching between different assets (e.g. from Binance Coin to synthetic gold), expanding the accessibility of certain assets, and censorship resistance.
 
 **Advantages of Oikos.Exchange**
 
@@ -54,33 +54,33 @@ Trading on Oikos.Exchange provides many advantages over centralised exchanges an
 
 **How Synths work**
 
-Synths are synthetic assets that track the price of the underlying asset. They allow holders to gain exposure on Tron to various asset classes without holding the underlying assets themselves or trusting a custodian. Synths are backed by the Oikos Network Token (OKS), which is staked as collateral at a ratio of 800%.
+Synths are synthetic assets that track the price of the underlying asset. They allow holders to gain exposure on Binance Smart Chain to various asset classes without holding the underlying assets themselves or trusting a custodian. Synths are backed by the Oikos Network Token (OKS), which is staked as collateral at a ratio of 500%.
 
 **The current Synths**
 
-There are currently five categories of Synths available: fiat currencies, commodities, cryptocurrencies, inverse cryptocurrencies, and cryptocurrency indexes. Our fiat Synths include sUSD, sEUR, sKRW, and many more; our commodity Synths include synthetic gold and synthetic silver, both measured per ounce; our cryptocurrencies include sBTC, sTRX, and sBNB, with more to come; and our Inverse Synths inversely track the price of those available cryptocurrencies, meaning that when BTC’s price decreases, iBTC’s price increases. Our current cryptocurrency indexes are sDEFI and sCEX (and their inverses), which respectively track a basket of DeFi assets and a basket of centralised exchange tokens.
+There are currently four categories of Synths available: commodities, cryptocurrencies, inverse cryptocurrencies, and cryptocurrency indexes. Our commodity Synths include synthetic gold, measured per ounce; our cryptocurrencies include oBTC, oETH, and oBNB, with more to come; and our Inverse Synths inversely track the price of those available cryptocurrencies, meaning that when BTC’s price decreases, iBTC’s price increases.
 
 ## System Architecture
 
 **Minting Synths**
 
-An OKS holder can mint sUSD by locking their OKS as collateral via the Oikos smart contract. The steps involved when an OKS holder mints are:
+An OKS holder can mint oUSD by locking their OKS as collateral via the Oikos smart contract. The steps involved when an OKS holder mints are:
 
-- The Oikos contract checks that the OKS staker can mint Synths against their OKS, which requires their Collateralisation Ratio to be below 800%.
-- Their debt is added to the Debt Register. The debt is the amount of the new value minted, and is stored in sUSD
-- With the debt assigned to the staker, the Oikos contract instructs the sUSD contract to issue the new amount. It adds it to its total supply and assigns the newly minted sUSD to the user’s wallet.
+- The Oikos contract checks that the OKS staker can mint Synths against their OKS, which requires their Collateralisation Ratio to be above 500%.
+- Their debt is added to the Debt Register. The debt is the amount of the new value minted, and is stored in oUSD
+- With the debt assigned to the staker, the Oikos contract instructs the oUSD contract to issue the new amount. It adds it to its total supply and assigns the newly minted oUSD to the user’s wallet.
 
-If the price of OKS increases, an equivalent portion of a staker’s OKS is automatically unlocked as collateral. For example, if a user locks $100 of OKS as collateral, and the value of OKS doubles, then half of their OKS (total value: $200) is locked and the other half is unlocked. If they wish, that extra unlocked OKS can then be staked to mint more sUSD.
+If the price of OKS increases, an equivalent portion of a staker’s OKS is automatically unlocked as collateral. For example, if a user locks $100 of OKS as collateral, and the value of OKS doubles, then half of their OKS (total value: $200) is locked and the other half is unlocked. If they wish, that extra unlocked OKS can then be staked to mint more oUSD.
 
 **Exchanges**
 
-The steps involved for the smart contracts to process a Synth exchange (from sUSD to sBTC in this example) are below:
+The steps involved for the smart contracts to process a Synth exchange (from oUSD to oBTC in this example) are below:
 
-- Burn the source Synth (sUSD), which involves reducing that wallet address’s sUSD balance and updating the total supply of sUSD.
+- Burn the source Synth (oUSD), which involves reducing that wallet address’s oUSD balance and updating the total supply of oUSD.
 - Establish the conversion amount (i.e. the exchange rate, based on the price of each currency).
-- Charge an exchange fee, which is currently 0.3% of the converted amount, and send the fee as sUSD to the fee pool, where it can be claimed by OKS stakers.
-- The remaining 99.7% is issued by the destination Synth (sBTC) contract and the wallet address balance is updated
-- The sBTC total supply is updated.
+- Charge an exchange fee, which is currently 0.3% of the converted amount, and send the fee as oUSD to the fee pool, where it can be claimed by OKS stakers.
+- The remaining 99.7% is issued by the destination Synth (oBTC) contract and the wallet address balance is updated
+- The oBTC total supply is updated.
 
 No counterparty is required to exchange, as the system converts the debt from one Synth to another. Hence no order books or order matching is required, resulting in infinite liquidity between Synths. No debt change is required to be recorded against the debt pool either, as the same value is burned from the source Synth and minted from the destination Synth.
 
@@ -89,17 +89,17 @@ No counterparty is required to exchange, as the system converts the debt from on
 When Synths are exchanged through the Oikos contract, a 0.3% fee is extracted and sent to the fee pool to be claimed by OKS stakers. When claiming fees (also called Synth exchange rewards) a staker also claims their OKS staking rewards, which reward them with extra OKS for staking the OKS they currently have. The smart contracts’ process once a staker requests to claim their fees is as follows:
 
 - The fee pool checks whether there are fees currently available and whether the staker is eligible to receive fees.
-- The amount of fees in sUSD is sent to the staker’s wallet address and the balance of the fee pool is updated.
+- The amount of fees in oUSD is sent to the staker’s wallet address and the balance of the fee pool is updated.
 - Additionally, a pro-rata amount of escrowed OKS is assigned to the wallet address from the OKS staking rewards contract.
 
-Fees are allocated based on the proportion of debt each staker has issued. For example, if a staker has issued 1,000 sUSD in debt, the debt pool is 10,000 sUSD, and 100 in fees are generated in a fee period, this staker is entitled to 10 sUSD because their debt represents 10% of the debt pool. The same proportional distribution mechanism is used for OKS staking rewards.
+Fees are allocated based on the proportion of debt each staker has issued. For example, if a staker has issued 1,000 oUSD in debt, the debt pool is 10,000 oUSD, and 100 in fees are generated in a fee period, this staker is entitled to 10 oUSD because their debt represents 10% of the debt pool. The same proportional distribution mechanism is used for OKS staking rewards.
 
 **Burning debt**
 
-When an OKS staker wants to exit the system or reduce their debt and unlock staked OKS, they must pay back their debt. At its simplest: a staker mints 10 sUSD by locking OKS as collateral, and must burn 10 sUSD to unlock it. But if the debt pool fluctuates (and therefore their individual debt fluctuates) while they are staked, they may need to burn more or less debt than they minted. The process for reducing debt to zero is as follows:
+When an OKS staker wants to exit the system or reduce their debt and unlock staked OKS, they must pay back their debt. At its simplest: a staker mints 10 oUSD by locking OKS as collateral, and must burn 10 oUSD to unlock it. But if the debt pool fluctuates (and therefore their individual debt fluctuates) while they are staked, they may need to burn more or less debt than they minted. The process for reducing debt to zero is as follows:
 
 - The Oikos contract determines their debt balance and removes them from the Debt Register.
-- The required amount of sUSD is burned, and total supply of sUSD is updated along with the sUSD balance in the user’s wallet.
+- The required amount of oUSD is burned, and total supply of oUSD is updated along with the oUSD balance in the user’s wallet.
 - Their OKS balance becomes transferrable.
 
 **The debt pool**
@@ -146,25 +146,25 @@ There are several risks in the current architecture, as Oikos is still an experi
 
 One risk involves the debt OKS holders issue when they stake their OKS and mint Synths. As previously explained, this debt can fluctuate due to exchange rate shifts within the system. This means that to exit the system and unlock their staked OKS, they may need to burn more Synths than they originally minted.
 
-Most people in the cryptocurrency space are aware of this risk, but the prices of most cryptoassets are highly correlated to Bitcoin and/or Tron. This means it’s possible for major price fluctuations in the OKS token to occur for reasons that have little to do with OKS or the Oikos system.
+Most people in the cryptocurrency space are aware of this risk, but the prices of most cryptoassets are highly correlated to Bitcoin and/or Binance Smart Chain. This means it’s possible for major price fluctuations in the OKS token to occur for reasons that have little to do with OKS or the Oikos system.
 
 Finally, there are a number of aspects of the system that are currently centralised. This decision has been made to ensure efficient implementation of the project. One example of centralisation is the use of proxy contracts across much of the architecture. This is to ensure the system can be upgraded easily but confers a level of control to the engineering team which requires trust from users. While these aspects will be phased out over time, it is important to understand the risks inherent in the current system architecture.
 
 **Risk mitigation strategies**
 
-As a decentralised protocol, the Oikos team is committed to decentralisation and censorship resistance — this will be a gradual process as the system matures. This includes crucial areas such as our price feeds. We will are planning to eventually use Chainlink, a provider of decentralised oracle solutions.
+As a decentralised protocol, the Oikos team is committed to decentralisation and censorship resistance — this will be a gradual process as the system matures. This includes crucial areas such as our price feeds. We are planning to eventually use Chainlink, a provider of decentralised oracle solutions.
 
-Another important area is governance, we have recently initiated regular community governance calls to ensure the project’s goals are aligned with the community. Another aspect of this process is a move to a formal change management process, we have introduced SIP’s (Oikos Improvement Proposals) to allow the community to introduce change requests and to ensure that any changes to the system are well understood and considered by all stakeholders.
+Another important area is governance, we have recently initiated regular community governance calls to ensure the project’s goals are aligned with the community. Another aspect of this process is a move to a formal change management process, we will introduce OIP’s (Oikos Improvement Proposals) to allow the community to introduce change requests and to ensure that any changes to the system are well understood and considered by all stakeholders.
 
 ## Future Functionality
 
 **Additional Synths**
 
-There are many different kinds of Synths that can be added to the system to provide greater utility to Oikos.Exchange. These include leveraged assets that are not available on other platforms as well as indices like the S&P500 and equities like APPL and TSLA.
+There are many different kinds of Synths that can be added to the system to provide greater utility to Oikos.Exchange. These include leveraged assets that are not available inside other platforms on Binance Smart Chain, as well as indices like the SCEX which respectively tracks a basket of centralised exchange tokens, stocks  and commodities.
 
 **Synthetic futures**
 
-We expect to launch the ability for traders to take synthetic futures on Oikos.Exchange in the near future. Many aspects of this functionality are yet to be finalised, but it’s expected it will use a self balancing mechanism similar to the Oikos Swap auto market maker algorithm, where the total open interest of each position and therefore the risk to OKS stakers is capped and borrow rates are adjusted based on the current open interest. The system will also encourage traders to balance the risk in the system by paying a percentage of the fees to traders who rebalance positions, though this feature will not be in the initial release. There are already a number of derivatives trading platforms for cryptoassets, but they are all limited by counterparty liquidity. The unique design of the Oikos system means it may be able to capture market share in this area, similarly to how Binance captured market share by listing more cryptoassets than most other centralised exchanges.
+We expect to launch the ability for traders to take synthetic futures on Oikos.Exchange in the near future. Many aspects of this functionality are yet to be finalised, but it’s expected it will use a self balancing mechanism similar to the one used for auto market maker algorithms, where the total open interest of each position and therefore the risk to OKS stakers is capped and borrow rates are adjusted based on the current open interest. The system will also encourage traders to balance the risk in the system by paying a percentage of the fees to traders who rebalance positions, though this feature will not be in the initial release. There are already a number of derivatives trading platforms for cryptoassets, but they are all limited by counterparty liquidity. The unique design of the Oikos system means it may be able to capture market share in this area, similarly to how Binance captured market share by listing more cryptoassets than most other centralised exchanges.
 
 **Leveraged trading**
 
@@ -176,4 +176,4 @@ The current version of Oikos.Exchange supports only market orders which limits t
 
 ## Conclusion
 
-Oikos has already delivered one of the most complex and useful protocols built on Tron to date. But the potential for censorship-resistant synthetic assets is still largely untapped. Further improvements to the mechanism as well as functional upgrades and new Synths will vastly increase the utility of the platform. Movement to a decentralised governance process will also reduce systemic risk and increase the long term viability of the project.
+Oikos has already delivered one of the most complex and useful protocols built on Binance Smart Chain to date. But the potential for censorship-resistant synthetic assets is still largely untapped. Further improvements to the mechanism as well as functional upgrades and new Synths will vastly increase the utility of the platform. Movement to a decentralised governance process will also reduce systemic risk and increase the long term viability of the project.
