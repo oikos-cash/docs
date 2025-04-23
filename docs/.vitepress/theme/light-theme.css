@@ -1,0 +1,74 @@
+/**
+ * Light theme colors
+ */
+:root:not(.dark) {
+  --vp-c-bg: #ffffff;
+  --vp-c-bg-alt: #f5f7fa;
+  --vp-c-bg-soft: #f3f4f5;
+  
+  --vp-c-text: #213547;
+  --vp-c-text-light: #3a4a5e;
+  --vp-c-text-lighter: #576a80;
+  --vp-c-text-dark: #1a2a3a;
+  --vp-c-text-darker: #0d1520;
+  
+  --vp-c-border: rgba(0, 0, 0, 0.1);
+  --vp-c-divider: rgba(0, 0, 0, 0.1);
+  
+  --vp-c-gutter: #f5f7fa;
+  
+  --vp-c-highlight-bg: rgba(100, 108, 255, 0.08);
+  
+  --vp-c-tip-bg: rgba(66, 184, 131, 0.08);
+  
+  --vp-c-warning-bg: rgba(231, 192, 0, 0.08);
+  
+  --vp-c-danger-bg: rgba(229, 57, 53, 0.08);
+  
+  --vp-button-alt-bg: #e7e9ee;
+  --vp-button-alt-hover-bg: #dfe1e6;
+  --vp-button-alt-active-bg: #d4d7dd;
+}
+
+:root:not(.dark) .vp-doc h1,
+:root:not(.dark) .vp-doc h2,
+:root:not(.dark) .vp-doc h3,
+:root:not(.dark) .vp-doc h4,
+:root:not(.dark) .vp-doc h5,
+:root:not(.dark) .vp-doc h6 {
+  background: linear-gradient(90deg, var(--vp-c-brand), var(--vp-c-brand-dark));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  display: inline-block;
+}
+
+:root:not(.dark) .VPNavBar {
+  backdrop-filter: blur(10px);
+  background-color: rgba(255, 255, 255, 0.95) !important;
+  border-bottom: 1px solid var(--vp-c-border);
+}
+
+:root:not(.dark) .VPFeature {
+  border: 1px solid var(--vp-c-border);
+  background-color: var(--vp-c-bg);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.04);
+}
+
+:root:not(.dark) .VPFeature:hover {
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+  border-color: var(--vp-c-brand);
+}
+
+:root:not(.dark) .VPHome {
+  background: radial-gradient(circle at 50% 0%, var(--vp-c-bg-soft), var(--vp-c-bg) 50%);
+}
+
+:root:not(.dark) .vp-doc pre {
+  background-color: var(--vp-c-bg-soft) !important;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+:root:not(.dark) .vp-doc img {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
