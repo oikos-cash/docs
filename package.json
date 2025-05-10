@@ -8,7 +8,7 @@
     "docs:build": "vitepress build docs",
     "docs:preview": "vitepress preview docs"
   },
-  "keywords": ["noma", "protocol", "documentation", "crypto"],
+  "keywords": ["oikos", "protocol", "documentation", "crypto"],
   "author": "",
   "license": "ISC",
   "devDependencies": {
