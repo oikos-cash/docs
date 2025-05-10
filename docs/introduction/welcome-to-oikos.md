@@ -21,4 +21,4 @@ and more to come.
 
 ## Getting Started
 
-Ready to dive deeper? Check out our [Getting Started](/introduction/getting-started) guide to begin your journey with Oikos.
+<!-- Ready to dive deeper? Check out our [Getting Started]() guide to begin your journey with Oikos. -->
