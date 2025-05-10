@@ -6,6 +6,7 @@ export default {
   head: [
     ['link', { rel: 'icon', href: '/assets/favicon.ico' }],
   ],
+  outDir: '../dist',
   themeConfig: {
     darkModeSwitchLabel: 'Appearance',
     sidebarMenuLabel: 'Menu',
@@ -35,13 +36,13 @@ export default {
         items: [
           { text: "Intrinsic Minimum Value", link: "/concepts/imv" },
           { text: "Dynamic Liquidity & Supply", link: "/concepts/dynamic-liquidity" },
+          { text: "Solvency Invariant", link: "/concepts/solvency_invariant" }
         ]
       },
       {
         text: "oToken Utility",
         items: [
-          { text: "Loans", link: "/otokens/overview" },
-          { text: "Leverage", link: "/otokens/leverage" },
+          { text: "Loans & Leverage", link: "/otokens/loans-leverage" },
           { text: "Staking", link: "/otokens/staking" },
         ]
       },
@@ -49,7 +50,7 @@ export default {
         text: "Launchpad",
         items: [
           { text: "Overview", link: "/launchpad/overview" },
-          { text: "Token Creation", link: "/launchpad/token-creation" },
+          { text: "Presale" , link: "/launchpad/presale" },
         ]
       },
       // {
