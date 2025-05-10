@@ -1,0 +1,4 @@
+# Staking
+
+Holders of Oikos tokens can stake their assets to earn rewards. Every time the protocol rebalances the liquidity upwards and the IMV is increased, a portion of the protocol profits are distributed to participants, proportionally to their staked amounts. When an holder stakes their tokens, the protocol mints an equivalent amount of staked token ("sToken"). Rewards are distributed using a rebasing mechanism, which means that the sToken balance is automatically adjusted to reflect the rewards earned. This allows stakers to earn rewards without having to manually claim them.
+Upon unstaking, the protocol burns the sTokens and returns the original tokens, plus rewards to the holder.

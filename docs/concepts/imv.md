@@ -6,5 +6,5 @@ The Intrinsic Minimum Value (IMV) is one of the most prominent features of the O
 
 ## Why this matters to holders
 
-The IMV is a powerful tool for holders, as it provides them with a sense of security and confidence in the value of their assets. The IMV is designed to increase over time, which means that holders can expect to see their assets appreciate in value. The IMV provides a stable and predictable value for holders and helps to build trust and confidence in the project.
+The IMV is a powerful tool for holders, as it provides them with a sense of security and confidence in the value of their assets. The IMV is designed to increase over time, which means that holders can expect to see their assets appreciate in value against the numéraire (reserve asset). The IMV provides a stable and predictable value for holders and helps to build trust and confidence in the project.
 

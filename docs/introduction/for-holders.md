@@ -11,7 +11,7 @@ In today's world, the cryptocurrency industry has become a cut-throat environmen
 
 ## Solution: A change of paradigm
 
-Oikos protocol provides a novel way for projects to launch tokens with transparency and fairness baked into the protocol at code level. With this innovative model, the circulating outside the protocol's control must be backed 1:1 by real liquidity, at the floor price. This means that the protocol can buy back the whole circulating supply at any time, while guaranteeing the price will ever reach a determined level. In addition, the liquidity is controlled by the protocol itself, rather than by insiders or the project team. This creates a sustainable and aligned economy that benefits all stakeholders, rather than just a select few. 
+The Oikos protocol provides a novel way for projects to launch tokens with transparency and fairness baked into the protocol at code level. With this innovative model, the circulating outside the protocol's control must be backed 1:1 by real liquidity, at the floor price. This means that the protocol can buy back the whole circulating supply at any time, while guaranteeing the price will ever reach a determined level. In addition, the liquidity is controlled by the protocol itself, rather than by insiders or the project team. This creates a sustainable and aligned economy that benefits all stakeholders, rather than just a select few. 
 
 
 <br />

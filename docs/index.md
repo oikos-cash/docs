@@ -22,11 +22,11 @@ features:
   - icon: 
       src: /assets/icon1.png
     title: Up only floor price
-    details: Every token backed by a guaranteed stop price that can only increase
+    details: Circulating is backed by a guaranteed stop price that can only increase
   - icon:
       src: /assets/icon2.png
     title: Dynamic Liquidity
-    details: The protocol acts as a market maker adapting to market conditions
+    details: The protocol acts as a market maker, adapting to market conditions
   - icon: 
       src: /assets/icon3.png
     title: No liquidation Loans

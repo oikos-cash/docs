@@ -1,90 +1,55 @@
-# Oikos Launchpad Overview
+# Launchpad Overview
 
-![Launchpad](/assets/hero-dark.png)
+The launchpad allows project founders to coordinate the launch of their upcoming token in a fair and transparent way. The following rules are imposed at smart contract level:
 
-The Oikos Launchpad enables anyone to launch their own token with guaranteed floor price mechanics, dynamic liquidity, and built-in utilities that create sustainable markets.
+* The contract enforces pre-determined bounds on parameters such as the presale price, soft/hard cap and duration of the presale.
+* If the presale is not successful, the liquidity is returned to the liquidity pool and the presale is cancelled.
+* Funds are sent directly to the designated liquidity pool on Uniswap V3, without human intervention.
 
-## A New Generation of Token Launches
+Whether or not a presale is planned, the launchpad wizard guides the user through the process in three simple steps:
 
-Traditional token launch methods often lead to problematic market dynamics:
-- Excessive selling pressure from early investors
-- Reliance on profit-motivated external market makers
-- Vulnerability to market manipulation
-- Unpredictable liquidity crises
+### 1 - **Token Information**
 
-Oikos addresses these challenges by creating tokens with:
-- Guaranteed minimum value backed by protocol reserves
-- Protocol-owned and managed liquidity
-- Self-sustaining market making operations
-- Transparent price discovery mechanisms
+The user is asked to provide the token name, symbol, decimals and whether or not to include a presale. Defaults to "no presale".
 
-## Launchpad Process
+<img src="../public/assets/img/step_1_launchpad_oikos.png" alt="Liquidity structure" width="550"/>
 
-Launching a token with Oikos follows a straightforward process:
+### 2) **Pool Information**
 
-### 1. Initial Guaranteed Minimum Value (IGMV) Event
+The user enters the desired floor price, expressed in reserve asset (e.g. WBNB) and chooses the reserve asset itself. Initially only WBNB is available.
 
-- Configurable event where initial capital is raised
-- Establishes the starting floor price for your token
-- Options for allowlists, capital limits, and tiered pricing
-- All funds directed to the protocol's liquidity reserves
+<img src="../public/assets/img/step_2_launchpad_oikos.png" alt="Liquidity structure" width="550"/>
 
-### 2. Liquidity Configuration
 
-- Set parameters for liquidity distribution across price ranges
-- Configure desired trading characteristics 
-- Determine initial price discovery range
-- Tailor market behavior to your project's needs
+### 3(a) - **Confirm Deploy (no presale)**
 
-### 3. Token Distribution
+If the user selected "no presale", step 3 will show a summary of the information provided in the previous steps and prompt the user to deploy the token.
 
-- Full supply is minted at launch with no hidden vesting
-- Distribute tokens to team, community, and investors
-- Create transparent tokenomics with no future supply shocks
-- Lock portions for team members if desired
+<img src="../public/assets/img/step_3_launchpad_nopresale_oikos.png" alt="Liquidity structure" width="550"/>
 
-### 4. Market Activation
+Once the user accepts and confirms the transaction, the token is deployed and the corresponding entry is added to the markets section.
 
-- Liquidity is automatically deployed across three ranges
-- Trading begins with protocol-managed market making
-- All trading fees reinvested to strengthen the floor price
-- Continuous price discovery with no external intervention
+### 3(b) - **Presale Information**
 
-## Key Features
+If the user selected to include a presale, they will have to enter additional information such as the soft cap and presale duration. 
 
-### Sustainable Tokenomics
+<img src="../public/assets/img/step_3_launchpad_oikos.png" alt="Liquidity structure" width="550"/>
 
-- No reliance on continuous token emissions
-- Market making fees directly strengthen token fundamentals
-- Floor price that only increases over time
-- Self-reinforcing market dynamics
+The presale price is computed automatically based on a fixed presale markup (25%). Lastly, the user specifies the desired soft cap (between 20% and 60% of the hard cap) and a duration for the presale (min 30 max 90 days). The presale can be finalized at any time before the end of the duration, as long as the soft cap is reached. 
 
-### Built-in Utility
+<p style="font-style:italic; font-size: 13px" >
+* The presale markup can be changed on a per-project basis. Contact the team on Discord to discuss your project.
+</p>
 
-Launch your token with powerful financial utilities automatically enabled:
-- Zero-interest loans against token floor price
-- Liquidation-free leveraged positions
-- Staking rewards from protocol fees
-- Governance participation opportunities
+See the <a href="../launchpad/presale" target="_blank">Presale section</a> for details.
 
-### Founder Benefits
 
-- Earn continuous rewards from market making
-- Create stronger community confidence
-- Focus on building your project rather than managing markets
-- Benefit from unique value proposition for investors
+### 4 - **Confirm Deploy (with presale)**
+This step will show a summary of the information provided in the previous steps (including the presale configuration) and prompt the user to deploy the token.
 
-## Requirements
 
-To launch a token on Oikos, you'll need:
-- A Web3-compatible wallet
-- BNB for gas fees
-- Initial liquidity capital (in BNB)
-- Optional: project documentation and community resources
+<img src="../public/assets/img/step_4_launchpad_oikos.png" alt="Liquidity structure" width="550"/>
 
-## Next Steps
+Once the user accepts and confirms the transaction, the token is deployed and a presale page is created and added to the corresponding section.
 
-The following sections will guide you through each step of the token creation process:
-- [Token Creation](/launchpad/token-creation)
-- [Pool Settings](/launchpad/pool-settings) 
-- [Presale Configuration](/launchpad/presale-configuration)
+<br />
